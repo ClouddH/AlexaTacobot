@@ -1,0 +1,18 @@
+SenderNameCapture My name is {SenderName}
+SenderNameCapture I am {SenderName}
+ReceiverNameCapture I want to give taco to {ReceiverName}
+ReceiverNameCapture I will give taco to {ReceiverName}
+TacoQuantityCapture {TacoCount} tacos
+TacoQuantityCapture {TacoCount} taco
+TacoGivingReasonCapture Because {You are a good man |TacoReason}
+TacoGivingReasonCapture For {Many many thanks|TacoReason}
+TacoGivingReasonCapture I want to give taco because {I feel like it |TacoReason}
+RealOrFakeCapture {RealOrFake}
+InitOptionCapture Option {InitOption}
+GivingTaco I would like to send taco 
+TacoHistory I would like to hear about taco history 
+TacoFact Tell me a random taco fact 
+TacoRecipe Tell me a random taco recipe  
+QueryTacoLeaderBoard What is going on on Taco Leaderboard
+
+

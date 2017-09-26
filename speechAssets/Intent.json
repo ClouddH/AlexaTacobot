@@ -1,0 +1,78 @@
+{
+	"intents": [{
+		"intent": "AMAZON.HelpIntent",
+		"slots": []
+	},{
+		"intent": "AMAZON.StopIntent",
+		"slots": []
+	},{
+		"intent": "AMAZON.CancelIntent",
+		"slots": []
+	},{
+		"intent": "SenderNameCapture",
+		"slots": [
+			{
+				"name": "SenderName",
+				"type": "HomigoEmployee"
+			}
+		]
+
+	},{
+		"intent": "ReceiverNameCapture",
+		"slots": [
+			{
+				"name": "ReceiverName",
+				"type": "HomigoEmployee"
+			}
+		]
+
+	},{
+		"intent": "TacoQuantityCapture",
+		"slots": [
+			{
+				"name" : "TacoCount",
+				"type": "AMAZON.NUMBER"
+			}
+		]
+	},{
+		"intent": "TacoGivingReasonCapture",
+		"slots": [
+			{
+				"name" : "TacoReason",
+				"type": "AMAZON.LITERAL"
+			}
+		]
+	},{
+		"intent": "RealOrFakeCapture",
+		"slots": [
+			{
+				"name": "RealOrFake",
+				"type": "RealOrFake"
+			}
+		]
+
+	},{
+		"intent": "InitOptionCapture",
+		"slots": [
+			{
+				"name": "InitOption",
+				"type": "InitOption"
+			}
+		]
+	},{
+		"intent": "GivingTaco",
+		"slots": []
+	},{
+		"intent": "TacoHistory",
+		"slots": []
+	},{
+		"intent": "TacoFact",
+		"slots": []
+	},{
+		"intent": "TacoRecipe",
+		"slots": []
+	},{
+		"intent": "QueryTacoLeaderBoard",
+		"slots": []
+	}]
+}

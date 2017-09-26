@@ -1,0 +1,31 @@
+{
+  "name": "Game Helper",
+  "version": "1.0.0",
+  "description": "Alexa Game Helper template",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.12",
+    "axios": "^0.16.2"
+  },
+  "license": "See license in ../LICENSE.txt",
+  "author": "Amazon.com",
+  "keywords": [
+    "alexa",
+    "skill",
+    "audio player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexa/skill-sample-nodejs-game-helper"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
